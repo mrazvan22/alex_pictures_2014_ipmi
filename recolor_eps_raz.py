@@ -290,7 +290,10 @@ inner sep=0]
 \begin{document}
 \belowdisplayskip=12pt plus 3pt minus 9pt
 \belowdisplayshortskip=7pt plus 3pt minus 4pt
+
+% scale parameter for the circles and the gradient
 \tikzset{every picture/.append style={scale=0.6}}
+% scale parameter for the upper and lower small brain images
 \newcommand*{\scaleBrainImg}{0.3}
 
 %col{x}{y}{z} respresents the color for ball z from matrix x at stage y (matrix x, stage y, ball z)
@@ -321,7 +324,7 @@ inner sep=0]
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{'''
       text +=  "images/%s/stage_%d.eps" % (CSV_MATRICES[matrixIndex].split("_")[0], STAGE_NR_LABELS[stageIndex]) + r'''}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=''' + "col%d%d0" % (matrixIndex, stageIndex) + '''] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=''' + "col%d%d1" % (matrixIndex, stageIndex) + '''] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=''' + "col%d%d2" % (matrixIndex, stageIndex) + '''] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -329,7 +332,7 @@ inner sep=0]
     \draw[fill=''' + "col%d%d4" % (matrixIndex, stageIndex) + '''] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=''' + "col%d%d5" % (matrixIndex, stageIndex) + '''] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=''' + "col%d%d6" % (matrixIndex, stageIndex) + '''] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -340,6 +343,7 @@ inner sep=0]
 
     text += r'''
   \hspace{1em}
+  % the red-to-yellow gradient on the right 
   \begin{tikzpicture}[scale=1.0,auto,swap]
     \shade[top color=red,bottom color=yellow] (0,0) rectangle (0.5,6);
     \node[inner sep=0] (corr_text) at (0.2,6.5) {1};
@@ -351,6 +355,7 @@ inner sep=0]
 '''
   text += r'''
 
+% scale parameter for the font size in the circles
 \newcommand*{\scaleLabelImg}{0.7}
 \begin{figure}[H]
   \centering
@@ -360,7 +365,7 @@ inner sep=0]
   % the two brain figures on top
   \node (brain) at (0,1.5) { \includegraphics*[scale=\scaleLabelImg]{images/Mid-Lateral_surface3.eps}};
 
-  % the 6 dots
+  % the 6 circles
   \draw[scale=\scaleLabelImg] (-9,-6) circle [radius=2cm] node {ABETA142};
   \draw[scale=\scaleLabelImg] (-4,-6) circle [radius=2cm] node {PTAU181P};
   \draw[scale=\scaleLabelImg] (1,-6) circle [radius=2cm] node {TAU};
@@ -368,7 +373,7 @@ inner sep=0]
   \draw[scale=\scaleLabelImg] (-4,-10.5) circle [radius=2cm] node {MMSE};
   \draw[scale=\scaleLabelImg] (1,-10.5) circle [radius=2cm] node {ADAS13};
 
-  % the big dot on the right
+  % the big circle on the right
   \draw[scale=\scaleLabelImg] (8,-8.25) circle [radius=4cm] node {FDG-PET};
 
   \end{tikzpicture}

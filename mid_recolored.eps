@@ -31,7 +31,10 @@ inner sep=0]
 \begin{document}
 \belowdisplayskip=12pt plus 3pt minus 9pt
 \belowdisplayshortskip=7pt plus 3pt minus 4pt
+
+% scale parameter for the circles and the gradient
 \tikzset{every picture/.append style={scale=0.6}}
+% scale parameter for the upper and lower small brain images
 \newcommand*{\scaleBrainImg}{0.3}
 
 %col{x}{y}{z} respresents the color for ball z from matrix x at stage y (matrix x, stage y, ball z)
@@ -222,7 +225,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/EBM/stage_6.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/EBM/stage_6.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col000] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col001] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col002] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -230,7 +233,7 @@ inner sep=0]
     \draw[fill=col004] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col005] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col006] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -245,7 +248,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/EBM/stage_12.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/EBM/stage_12.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col010] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col011] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col012] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -253,7 +256,7 @@ inner sep=0]
     \draw[fill=col014] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col015] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col016] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -268,7 +271,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/EBM/stage_18.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/EBM/stage_18.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col020] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col021] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col022] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -276,7 +279,7 @@ inner sep=0]
     \draw[fill=col024] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col025] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col026] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -291,7 +294,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/EBM/stage_24.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/EBM/stage_24.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col030] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col031] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col032] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -299,7 +302,7 @@ inner sep=0]
     \draw[fill=col034] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col035] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col036] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -314,7 +317,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/EBM/stage_36.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/EBM/stage_36.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col040] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col041] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col042] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -322,7 +325,7 @@ inner sep=0]
     \draw[fill=col044] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col045] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col046] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -331,6 +334,7 @@ inner sep=0]
   \hspace{-1.5em}
   ~
   \hspace{1em}
+  % the red-to-yellow gradient on the right 
   \begin{tikzpicture}[scale=1.0,auto,swap]
     \shade[top color=red,bottom color=yellow] (0,0) rectangle (0.5,6);
     \node[inner sep=0] (corr_text) at (0.2,6.5) {1};
@@ -349,7 +353,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/GMM/stage_6.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/GMM/stage_6.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col100] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col101] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col102] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -357,7 +361,7 @@ inner sep=0]
     \draw[fill=col104] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col105] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col106] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -372,7 +376,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/GMM/stage_12.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/GMM/stage_12.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col110] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col111] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col112] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -380,7 +384,7 @@ inner sep=0]
     \draw[fill=col114] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col115] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col116] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -395,7 +399,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/GMM/stage_18.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/GMM/stage_18.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col120] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col121] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col122] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -403,7 +407,7 @@ inner sep=0]
     \draw[fill=col124] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col125] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col126] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -418,7 +422,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/GMM/stage_24.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/GMM/stage_24.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col130] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col131] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col132] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -426,7 +430,7 @@ inner sep=0]
     \draw[fill=col134] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col135] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col136] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -441,7 +445,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/GMM/stage_36.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/GMM/stage_36.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col140] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col141] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col142] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -449,7 +453,7 @@ inner sep=0]
     \draw[fill=col144] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col145] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col146] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -458,6 +462,7 @@ inner sep=0]
   \hspace{-1.5em}
   ~
   \hspace{1em}
+  % the red-to-yellow gradient on the right 
   \begin{tikzpicture}[scale=1.0,auto,swap]
     \shade[top color=red,bottom color=yellow] (0,0) rectangle (0.5,6);
     \node[inner sep=0] (corr_text) at (0.2,6.5) {1};
@@ -476,7 +481,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster1/stage_6.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster1/stage_6.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col200] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col201] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col202] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -484,7 +489,7 @@ inner sep=0]
     \draw[fill=col204] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col205] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col206] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -499,7 +504,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster1/stage_12.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster1/stage_12.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col210] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col211] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col212] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -507,7 +512,7 @@ inner sep=0]
     \draw[fill=col214] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col215] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col216] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -522,7 +527,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster1/stage_18.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster1/stage_18.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col220] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col221] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col222] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -530,7 +535,7 @@ inner sep=0]
     \draw[fill=col224] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col225] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col226] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -545,7 +550,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster1/stage_24.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster1/stage_24.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col230] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col231] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col232] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -553,7 +558,7 @@ inner sep=0]
     \draw[fill=col234] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col235] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col236] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -568,7 +573,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster1/stage_36.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster1/stage_36.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col240] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col241] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col242] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -576,7 +581,7 @@ inner sep=0]
     \draw[fill=col244] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col245] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col246] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -585,6 +590,7 @@ inner sep=0]
   \hspace{-1.5em}
   ~
   \hspace{1em}
+  % the red-to-yellow gradient on the right 
   \begin{tikzpicture}[scale=1.0,auto,swap]
     \shade[top color=red,bottom color=yellow] (0,0) rectangle (0.5,6);
     \node[inner sep=0] (corr_text) at (0.2,6.5) {1};
@@ -603,7 +609,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster2/stage_6.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster2/stage_6.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col300] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col301] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col302] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -611,7 +617,7 @@ inner sep=0]
     \draw[fill=col304] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col305] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col306] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -626,7 +632,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster2/stage_12.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster2/stage_12.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col310] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col311] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col312] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -634,7 +640,7 @@ inner sep=0]
     \draw[fill=col314] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col315] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col316] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -649,7 +655,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster2/stage_18.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster2/stage_18.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col320] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col321] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col322] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -657,7 +663,7 @@ inner sep=0]
     \draw[fill=col324] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col325] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col326] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -672,7 +678,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster2/stage_24.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster2/stage_24.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col330] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col331] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col332] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -680,7 +686,7 @@ inner sep=0]
     \draw[fill=col334] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col335] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col336] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -695,7 +701,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster2/stage_36.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster2/stage_36.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col340] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col341] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col342] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -703,7 +709,7 @@ inner sep=0]
     \draw[fill=col344] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col345] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col346] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -712,6 +718,7 @@ inner sep=0]
   \hspace{-1.5em}
   ~
   \hspace{1em}
+  % the red-to-yellow gradient on the right 
   \begin{tikzpicture}[scale=1.0,auto,swap]
     \shade[top color=red,bottom color=yellow] (0,0) rectangle (0.5,6);
     \node[inner sep=0] (corr_text) at (0.2,6.5) {1};
@@ -730,7 +737,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster3/stage_6.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster3/stage_6.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col400] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col401] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col402] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -738,7 +745,7 @@ inner sep=0]
     \draw[fill=col404] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col405] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col406] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -753,7 +760,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster3/stage_12.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster3/stage_12.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col410] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col411] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col412] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -761,7 +768,7 @@ inner sep=0]
     \draw[fill=col414] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col415] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col416] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -776,7 +783,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster3/stage_18.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster3/stage_18.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col420] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col421] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col422] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -784,7 +791,7 @@ inner sep=0]
     \draw[fill=col424] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col425] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col426] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -799,7 +806,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster3/stage_24.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster3/stage_24.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col430] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col431] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col432] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -807,7 +814,7 @@ inner sep=0]
     \draw[fill=col434] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col435] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col436] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -822,7 +829,7 @@ inner sep=0]
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{images/cluster3/stage_36.eps}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{images/cluster3/stage_36.eps}};
 
-    % the 6 dots
+    % the 6 circles
     \draw[fill=col440] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
     \draw[fill=col441] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
     \draw[fill=col442] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
@@ -830,7 +837,7 @@ inner sep=0]
     \draw[fill=col444] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
     \draw[fill=col445] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
-    % the big dot on the right
+    % the big circle on the right
     \draw[fill=col446] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
@@ -839,6 +846,7 @@ inner sep=0]
   \hspace{-1.5em}
   ~
   \hspace{1em}
+  % the red-to-yellow gradient on the right 
   \begin{tikzpicture}[scale=1.0,auto,swap]
     \shade[top color=red,bottom color=yellow] (0,0) rectangle (0.5,6);
     \node[inner sep=0] (corr_text) at (0.2,6.5) {1};
@@ -849,6 +857,7 @@ inner sep=0]
 
 
 
+% scale parameter for the font size in the circles
 \newcommand*{\scaleLabelImg}{0.7}
 \begin{figure}[H]
   \centering
@@ -858,7 +867,7 @@ inner sep=0]
   % the two brain figures on top
   \node (brain) at (0,1.5) { \includegraphics*[scale=\scaleLabelImg]{images/Mid-Lateral_surface3.eps}};
 
-  % the 6 dots
+  % the 6 circles
   \draw[scale=\scaleLabelImg] (-9,-6) circle [radius=2cm] node {ABETA142};
   \draw[scale=\scaleLabelImg] (-4,-6) circle [radius=2cm] node {PTAU181P};
   \draw[scale=\scaleLabelImg] (1,-6) circle [radius=2cm] node {TAU};
@@ -866,7 +875,7 @@ inner sep=0]
   \draw[scale=\scaleLabelImg] (-4,-10.5) circle [radius=2cm] node {MMSE};
   \draw[scale=\scaleLabelImg] (1,-10.5) circle [radius=2cm] node {ADAS13};
 
-  % the big dot on the right
+  % the big circle on the right
   \draw[scale=\scaleLabelImg] (8,-8.25) circle [radius=4cm] node {FDG-PET};
 
   \end{tikzpicture}
