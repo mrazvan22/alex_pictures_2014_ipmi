@@ -305,7 +305,7 @@ inner sep=0]
         # abnormality=0 -> yellow (greenComponent=1); abnormality=1 -> red (greenComponent=0)
         greenVal =  1 - eventsAbnormalityAll[matrixIndex, stageIndex, BALL_ABN_IND[ballIndex]]
         text += r'''
-\definecolor{col''' + "%d%d%d" % (matrixIndex, stageIndex, ballIndex) + '''}{rgb}{1,''' + str(greenVal) + ''',0}'''
+\definecolor{col''' + "%d%d%d" % (matrixIndex, stageIndex, ballIndex) + '''}{rgb}{1,''' + "%.3f" % greenVal + ''',0}'''
 
   text += '''\n\n '''
   for matrixIndex in range(NR_MATRICES):
@@ -400,3 +400,4 @@ out.close()
 os.system("cd ordering_figures_final && pdflatex report1_gen.tex")
 os.system("cd ordering_figures_final && xelatex report1_gen.tex")
 print text
+print eventsAbnormalityAll[1, :,2]

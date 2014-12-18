@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.16)  18 DEC 2014 13:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.16)  18 DEC 2014 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -581,57 +581,57 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package epstopdf Info: Source file: <images/EBM/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/EBM/stage_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:35
+(epstopdf)                    date: 2014-12-18 15:01:22
 (epstopdf)                    size: 30236 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_6-eps-con
 verted-to.pdf images/EBM/stage_6.eps>
-(epstopdf)             \includegraphics on input line 222.
+(epstopdf)             \includegraphics on input line 225.
 runsystem(repstopdf --outfile=images/EBM/stage_6-eps-converted-to.pdf images/EB
 M/stage_6.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/EBM/stage_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30236 bytes.
 <images/EBM/stage_6-eps-converted-to.pdf, id=4, 476.78125pt x 165.61874pt>
 File: images/EBM/stage_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_6-eps-converted-to.pdf used on input 
-line 222.
+line 225.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/EBM/stage_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30236 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_6-eps-con
 verted-to.pdf images/EBM/stage_6.eps>
-(epstopdf)             \includegraphics on input line 223.
+(epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 File: images/EBM/stage_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_6-eps-converted-to.pdf used on input 
-line 223.
+line 226.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62383 bytes
 (epstopdf)             Output file: <images/EBM/stage_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:36
+(epstopdf)                    date: 2014-12-18 15:01:22
 (epstopdf)                    size: 30250 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_12-eps-co
 nverted-to.pdf images/EBM/stage_12.eps>
-(epstopdf)             \includegraphics on input line 245.
+(epstopdf)             \includegraphics on input line 248.
 runsystem(repstopdf --outfile=images/EBM/stage_12-eps-converted-to.pdf images/E
 BM/stage_12.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/EBM/stage_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30250 bytes.
 
 <images/EBM/stage_12-eps-converted-to.pdf, id=7, 476.78125pt x 165.61874pt>
@@ -639,38 +639,38 @@ File: images/EBM/stage_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_12-eps-converted-to.pdf used on input
- line 245.
+ line 248.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62383 bytes
 (epstopdf)             Output file: <images/EBM/stage_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30250 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_12-eps-co
 nverted-to.pdf images/EBM/stage_12.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 File: images/EBM/stage_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_12-eps-converted-to.pdf used on input
- line 246.
+ line 249.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62381 bytes
 (epstopdf)             Output file: <images/EBM/stage_18-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:36
+(epstopdf)                    date: 2014-12-18 15:01:22
 (epstopdf)                    size: 30252 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_18-eps-co
 nverted-to.pdf images/EBM/stage_18.eps>
-(epstopdf)             \includegraphics on input line 268.
+(epstopdf)             \includegraphics on input line 271.
 runsystem(repstopdf --outfile=images/EBM/stage_18-eps-converted-to.pdf images/E
 BM/stage_18.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/EBM/stage_18-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30252 bytes.
 
 <images/EBM/stage_18-eps-converted-to.pdf, id=10, 476.78125pt x 165.61874pt>
@@ -678,38 +678,38 @@ File: images/EBM/stage_18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_18-eps-converted-to.pdf used on input
- line 268.
+ line 271.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62381 bytes
 (epstopdf)             Output file: <images/EBM/stage_18-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30252 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_18-eps-co
 nverted-to.pdf images/EBM/stage_18.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
 File: images/EBM/stage_18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_18-eps-converted-to.pdf used on input
- line 269.
+ line 272.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62370 bytes
 (epstopdf)             Output file: <images/EBM/stage_24-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:36
+(epstopdf)                    date: 2014-12-18 15:01:22
 (epstopdf)                    size: 30294 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_24-eps-co
 nverted-to.pdf images/EBM/stage_24.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 294.
 runsystem(repstopdf --outfile=images/EBM/stage_24-eps-converted-to.pdf images/E
 BM/stage_24.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/EBM/stage_24-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30294 bytes.
 
 <images/EBM/stage_24-eps-converted-to.pdf, id=13, 476.78125pt x 165.61874pt>
@@ -717,38 +717,38 @@ File: images/EBM/stage_24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_24-eps-converted-to.pdf used on input
- line 291.
+ line 294.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62370 bytes
 (epstopdf)             Output file: <images/EBM/stage_24-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30294 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_24-eps-co
 nverted-to.pdf images/EBM/stage_24.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
 File: images/EBM/stage_24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_24-eps-converted-to.pdf used on input
- line 292.
+ line 295.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62356 bytes
 (epstopdf)             Output file: <images/EBM/stage_36-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:36
+(epstopdf)                    date: 2014-12-18 15:01:23
 (epstopdf)                    size: 30314 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_36-eps-co
 nverted-to.pdf images/EBM/stage_36.eps>
-(epstopdf)             \includegraphics on input line 314.
+(epstopdf)             \includegraphics on input line 317.
 runsystem(repstopdf --outfile=images/EBM/stage_36-eps-converted-to.pdf images/E
 BM/stage_36.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/EBM/stage_36-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30314 bytes.
 
 <images/EBM/stage_36-eps-converted-to.pdf, id=16, 476.78125pt x 165.61874pt>
@@ -756,38 +756,38 @@ File: images/EBM/stage_36-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_36-eps-converted-to.pdf used on input
- line 314.
+ line 317.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/EBM/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62356 bytes
 (epstopdf)             Output file: <images/EBM/stage_36-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30314 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EBM/stage_36-eps-co
 nverted-to.pdf images/EBM/stage_36.eps>
-(epstopdf)             \includegraphics on input line 315.
+(epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
 File: images/EBM/stage_36-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EBM/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/EBM/stage_36-eps-converted-to.pdf used on input
- line 315.
+ line 318.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/GMM/stage_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:36
+(epstopdf)                    date: 2014-12-18 15:01:23
 (epstopdf)                    size: 30242 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_6-eps-con
 verted-to.pdf images/GMM/stage_6.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 353.
 runsystem(repstopdf --outfile=images/GMM/stage_6-eps-converted-to.pdf images/GM
 M/stage_6.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/GMM/stage_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30242 bytes.
 
 <images/GMM/stage_6-eps-converted-to.pdf, id=20, 476.78125pt x 165.61874pt>
@@ -795,38 +795,38 @@ File: images/GMM/stage_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_6-eps-converted-to.pdf used on input 
-line 349.
+line 353.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/GMM/stage_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30242 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_6-eps-con
 verted-to.pdf images/GMM/stage_6.eps>
-(epstopdf)             \includegraphics on input line 350.
+(epstopdf)             \includegraphics on input line 354.
 Package epstopdf Info: Output file is already uptodate.
 File: images/GMM/stage_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_6-eps-converted-to.pdf used on input 
-line 350.
+line 354.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62383 bytes
 (epstopdf)             Output file: <images/GMM/stage_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:36
+(epstopdf)                    date: 2014-12-18 15:01:23
 (epstopdf)                    size: 30279 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_12-eps-co
 nverted-to.pdf images/GMM/stage_12.eps>
-(epstopdf)             \includegraphics on input line 372.
+(epstopdf)             \includegraphics on input line 376.
 runsystem(repstopdf --outfile=images/GMM/stage_12-eps-converted-to.pdf images/G
 MM/stage_12.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/GMM/stage_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30279 bytes.
 
 <images/GMM/stage_12-eps-converted-to.pdf, id=23, 476.78125pt x 165.61874pt>
@@ -834,38 +834,38 @@ File: images/GMM/stage_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_12-eps-converted-to.pdf used on input
- line 372.
+ line 376.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62383 bytes
 (epstopdf)             Output file: <images/GMM/stage_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:00
 (epstopdf)                    size: 30279 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_12-eps-co
 nverted-to.pdf images/GMM/stage_12.eps>
-(epstopdf)             \includegraphics on input line 373.
+(epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
 File: images/GMM/stage_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_12-eps-converted-to.pdf used on input
- line 373.
+ line 377.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62381 bytes
 (epstopdf)             Output file: <images/GMM/stage_18-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:37
+(epstopdf)                    date: 2014-12-18 15:01:23
 (epstopdf)                    size: 30289 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_18-eps-co
 nverted-to.pdf images/GMM/stage_18.eps>
-(epstopdf)             \includegraphics on input line 395.
+(epstopdf)             \includegraphics on input line 399.
 runsystem(repstopdf --outfile=images/GMM/stage_18-eps-converted-to.pdf images/G
 MM/stage_18.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/GMM/stage_18-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30289 bytes.
 
 <images/GMM/stage_18-eps-converted-to.pdf, id=26, 476.78125pt x 165.61874pt>
@@ -873,38 +873,38 @@ File: images/GMM/stage_18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_18-eps-converted-to.pdf used on input
- line 395.
+ line 399.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62381 bytes
 (epstopdf)             Output file: <images/GMM/stage_18-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30289 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_18-eps-co
 nverted-to.pdf images/GMM/stage_18.eps>
-(epstopdf)             \includegraphics on input line 396.
+(epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
 File: images/GMM/stage_18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_18-eps-converted-to.pdf used on input
- line 396.
+ line 400.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62380 bytes
 (epstopdf)             Output file: <images/GMM/stage_24-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:37
+(epstopdf)                    date: 2014-12-18 15:01:23
 (epstopdf)                    size: 30328 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_24-eps-co
 nverted-to.pdf images/GMM/stage_24.eps>
-(epstopdf)             \includegraphics on input line 418.
+(epstopdf)             \includegraphics on input line 422.
 runsystem(repstopdf --outfile=images/GMM/stage_24-eps-converted-to.pdf images/G
 MM/stage_24.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/GMM/stage_24-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30328 bytes.
 
 <images/GMM/stage_24-eps-converted-to.pdf, id=29, 476.78125pt x 165.61874pt>
@@ -912,79 +912,79 @@ File: images/GMM/stage_24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_24-eps-converted-to.pdf used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62380 bytes
 (epstopdf)             Output file: <images/GMM/stage_24-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30328 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_24-eps-co
 nverted-to.pdf images/GMM/stage_24.eps>
-(epstopdf)             \includegraphics on input line 419.
+(epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
 File: images/GMM/stage_24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_24-eps-converted-to.pdf used on input
- line 419.
+ line 423.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62367 bytes
 (epstopdf)             Output file: <images/GMM/stage_36-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:36:37
+(epstopdf)                    date: 2014-12-18 15:01:23
 (epstopdf)                    size: 30330 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_36-eps-co
 nverted-to.pdf images/GMM/stage_36.eps>
-(epstopdf)             \includegraphics on input line 441.
+(epstopdf)             \includegraphics on input line 445.
 runsystem(repstopdf --outfile=images/GMM/stage_36-eps-converted-to.pdf images/G
 MM/stage_36.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/GMM/stage_36-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
-(epstopdf)                    size: 30328 bytes.
+(epstopdf)                    date: 2014-12-18 15:06:01
+(epstopdf)                    size: 30330 bytes.
 
 <images/GMM/stage_36-eps-converted-to.pdf, id=32, 476.78125pt x 165.61874pt>
 File: images/GMM/stage_36-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_36-eps-converted-to.pdf used on input
- line 441.
+ line 445.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/GMM/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62367 bytes
 (epstopdf)             Output file: <images/GMM/stage_36-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-18 13:41:07
-(epstopdf)                    size: 30328 bytes
+(epstopdf)                    date: 2014-12-18 15:06:01
+(epstopdf)                    size: 30330 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/GMM/stage_36-eps-co
 nverted-to.pdf images/GMM/stage_36.eps>
-(epstopdf)             \includegraphics on input line 442.
+(epstopdf)             \includegraphics on input line 446.
 Package epstopdf Info: Output file is already uptodate.
 File: images/GMM/stage_36-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GMM/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/GMM/stage_36-eps-converted-to.pdf used on input
- line 442.
+ line 446.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/cluster1/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:36:37
+(epstopdf)                    date: 2014-12-18 15:01:24
 (epstopdf)                    size: 30261 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_6-ep
 s-converted-to.pdf images/cluster1/stage_6.eps>
-(epstopdf)             \includegraphics on input line 476.
+(epstopdf)             \includegraphics on input line 481.
 runsystem(repstopdf --outfile=images/cluster1/stage_6-eps-converted-to.pdf imag
 es/cluster1/stage_6.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster1/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30261 bytes.
 
 <images/cluster1/stage_6-eps-converted-to.pdf, id=35, 476.78125pt x 165.61874pt
@@ -992,41 +992,41 @@ df>
 File: images/cluster1/stage_6-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster1/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_6-eps-converted-to.pdf used on i
-nput line 476.
+nput line 481.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/cluster1/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30261 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_6-ep
 s-converted-to.pdf images/cluster1/stage_6.eps>
-(epstopdf)             \includegraphics on input line 477.
+(epstopdf)             \includegraphics on input line 482.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster1/stage_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster1/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_6-eps-converted-to.pdf used on i
-nput line 477.
+nput line 482.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62385 bytes
 (epstopdf)             Output file: <images/cluster1/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:37
+(epstopdf)                    date: 2014-12-18 15:01:24
 (epstopdf)                    size: 30289 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_12-e
 ps-converted-to.pdf images/cluster1/stage_12.eps>
-(epstopdf)             \includegraphics on input line 499.
+(epstopdf)             \includegraphics on input line 504.
 runsystem(repstopdf --outfile=images/cluster1/stage_12-eps-converted-to.pdf ima
 ges/cluster1/stage_12.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster1/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30289 bytes.
 
 <images/cluster1/stage_12-eps-converted-to.pdf, id=38, 476.78125pt x 165.61874p
@@ -1034,41 +1034,41 @@ t>
 File: images/cluster1/stage_12-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster1/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_12-eps-converted-to.pdf used on 
-input line 499.
+input line 504.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62385 bytes
 (epstopdf)             Output file: <images/cluster1/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30289 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_12-e
 ps-converted-to.pdf images/cluster1/stage_12.eps>
-(epstopdf)             \includegraphics on input line 500.
+(epstopdf)             \includegraphics on input line 505.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster1/stage_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster1/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_12-eps-converted-to.pdf used on 
-input line 500.
+input line 505.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62371 bytes
 (epstopdf)             Output file: <images/cluster1/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:37
+(epstopdf)                    date: 2014-12-18 15:01:24
 (epstopdf)                    size: 30299 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_18-e
 ps-converted-to.pdf images/cluster1/stage_18.eps>
-(epstopdf)             \includegraphics on input line 522.
+(epstopdf)             \includegraphics on input line 527.
 runsystem(repstopdf --outfile=images/cluster1/stage_18-eps-converted-to.pdf ima
 ges/cluster1/stage_18.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster1/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30299 bytes.
 
 <images/cluster1/stage_18-eps-converted-to.pdf, id=41, 476.78125pt x 165.61874p
@@ -1076,41 +1076,41 @@ t>
 File: images/cluster1/stage_18-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster1/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_18-eps-converted-to.pdf used on 
-input line 522.
+input line 527.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62371 bytes
 (epstopdf)             Output file: <images/cluster1/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:01
 (epstopdf)                    size: 30299 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_18-e
 ps-converted-to.pdf images/cluster1/stage_18.eps>
-(epstopdf)             \includegraphics on input line 523.
+(epstopdf)             \includegraphics on input line 528.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster1/stage_18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster1/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_18-eps-converted-to.pdf used on 
-input line 523.
+input line 528.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62360 bytes
 (epstopdf)             Output file: <images/cluster1/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:37
+(epstopdf)                    date: 2014-12-18 15:01:24
 (epstopdf)                    size: 30302 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_24-e
 ps-converted-to.pdf images/cluster1/stage_24.eps>
-(epstopdf)             \includegraphics on input line 545.
+(epstopdf)             \includegraphics on input line 550.
 runsystem(repstopdf --outfile=images/cluster1/stage_24-eps-converted-to.pdf ima
 ges/cluster1/stage_24.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster1/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30302 bytes.
 
 <images/cluster1/stage_24-eps-converted-to.pdf, id=44, 476.78125pt x 165.61874p
@@ -1118,41 +1118,41 @@ t>
 File: images/cluster1/stage_24-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster1/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_24-eps-converted-to.pdf used on 
-input line 545.
+input line 550.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62360 bytes
 (epstopdf)             Output file: <images/cluster1/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30302 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_24-e
 ps-converted-to.pdf images/cluster1/stage_24.eps>
-(epstopdf)             \includegraphics on input line 546.
+(epstopdf)             \includegraphics on input line 551.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster1/stage_24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster1/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_24-eps-converted-to.pdf used on 
-input line 546.
+input line 551.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62345 bytes
 (epstopdf)             Output file: <images/cluster1/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:38
+(epstopdf)                    date: 2014-12-18 15:01:24
 (epstopdf)                    size: 30236 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_36-e
 ps-converted-to.pdf images/cluster1/stage_36.eps>
-(epstopdf)             \includegraphics on input line 568.
+(epstopdf)             \includegraphics on input line 573.
 runsystem(repstopdf --outfile=images/cluster1/stage_36-eps-converted-to.pdf ima
 ges/cluster1/stage_36.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster1/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30236 bytes.
 
 <images/cluster1/stage_36-eps-converted-to.pdf, id=47, 476.78125pt x 165.61874p
@@ -1160,41 +1160,41 @@ t>
 File: images/cluster1/stage_36-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster1/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_36-eps-converted-to.pdf used on 
-input line 568.
+input line 573.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster1/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62345 bytes
 (epstopdf)             Output file: <images/cluster1/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30236 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster1/stage_36-e
 ps-converted-to.pdf images/cluster1/stage_36.eps>
-(epstopdf)             \includegraphics on input line 569.
+(epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster1/stage_36-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster1/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster1/stage_36-eps-converted-to.pdf used on 
-input line 569.
+input line 574.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/cluster2/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:36:38
+(epstopdf)                    date: 2014-12-18 15:01:24
 (epstopdf)                    size: 30272 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_6-ep
 s-converted-to.pdf images/cluster2/stage_6.eps>
-(epstopdf)             \includegraphics on input line 603.
+(epstopdf)             \includegraphics on input line 609.
 runsystem(repstopdf --outfile=images/cluster2/stage_6-eps-converted-to.pdf imag
 es/cluster2/stage_6.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster2/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30272 bytes.
 
 <images/cluster2/stage_6-eps-converted-to.pdf, id=50, 476.78125pt x 165.61874pt
@@ -1202,41 +1202,41 @@ df>
 File: images/cluster2/stage_6-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster2/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_6-eps-converted-to.pdf used on i
-nput line 603.
+nput line 609.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/cluster2/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30272 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_6-ep
 s-converted-to.pdf images/cluster2/stage_6.eps>
-(epstopdf)             \includegraphics on input line 604.
+(epstopdf)             \includegraphics on input line 610.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster2/stage_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster2/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_6-eps-converted-to.pdf used on i
-nput line 604.
+nput line 610.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62385 bytes
 (epstopdf)             Output file: <images/cluster2/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:38
+(epstopdf)                    date: 2014-12-18 15:01:25
 (epstopdf)                    size: 30309 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_12-e
 ps-converted-to.pdf images/cluster2/stage_12.eps>
-(epstopdf)             \includegraphics on input line 626.
+(epstopdf)             \includegraphics on input line 632.
 runsystem(repstopdf --outfile=images/cluster2/stage_12-eps-converted-to.pdf ima
 ges/cluster2/stage_12.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster2/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30309 bytes.
 
 <images/cluster2/stage_12-eps-converted-to.pdf, id=53, 476.78125pt x 165.61874p
@@ -1244,41 +1244,41 @@ t>
 File: images/cluster2/stage_12-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster2/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_12-eps-converted-to.pdf used on 
-input line 626.
+input line 632.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62385 bytes
 (epstopdf)             Output file: <images/cluster2/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:08
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30309 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_12-e
 ps-converted-to.pdf images/cluster2/stage_12.eps>
-(epstopdf)             \includegraphics on input line 627.
+(epstopdf)             \includegraphics on input line 633.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster2/stage_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster2/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_12-eps-converted-to.pdf used on 
-input line 627.
+input line 633.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62380 bytes
 (epstopdf)             Output file: <images/cluster2/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:38
+(epstopdf)                    date: 2014-12-18 15:01:25
 (epstopdf)                    size: 30340 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_18-e
 ps-converted-to.pdf images/cluster2/stage_18.eps>
-(epstopdf)             \includegraphics on input line 649.
+(epstopdf)             \includegraphics on input line 655.
 runsystem(repstopdf --outfile=images/cluster2/stage_18-eps-converted-to.pdf ima
 ges/cluster2/stage_18.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster2/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30340 bytes.
 
 <images/cluster2/stage_18-eps-converted-to.pdf, id=56, 476.78125pt x 165.61874p
@@ -1286,41 +1286,41 @@ t>
 File: images/cluster2/stage_18-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster2/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_18-eps-converted-to.pdf used on 
-input line 649.
+input line 655.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62380 bytes
 (epstopdf)             Output file: <images/cluster2/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30340 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_18-e
 ps-converted-to.pdf images/cluster2/stage_18.eps>
-(epstopdf)             \includegraphics on input line 650.
+(epstopdf)             \includegraphics on input line 656.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster2/stage_18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster2/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_18-eps-converted-to.pdf used on 
-input line 650.
+input line 656.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62369 bytes
 (epstopdf)             Output file: <images/cluster2/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:38
+(epstopdf)                    date: 2014-12-18 15:01:25
 (epstopdf)                    size: 30335 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_24-e
 ps-converted-to.pdf images/cluster2/stage_24.eps>
-(epstopdf)             \includegraphics on input line 672.
+(epstopdf)             \includegraphics on input line 678.
 runsystem(repstopdf --outfile=images/cluster2/stage_24-eps-converted-to.pdf ima
 ges/cluster2/stage_24.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster2/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30335 bytes.
 
 <images/cluster2/stage_24-eps-converted-to.pdf, id=59, 476.78125pt x 165.61874p
@@ -1328,41 +1328,41 @@ t>
 File: images/cluster2/stage_24-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster2/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_24-eps-converted-to.pdf used on 
-input line 672.
+input line 678.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62369 bytes
 (epstopdf)             Output file: <images/cluster2/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30335 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_24-e
 ps-converted-to.pdf images/cluster2/stage_24.eps>
-(epstopdf)             \includegraphics on input line 673.
+(epstopdf)             \includegraphics on input line 679.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster2/stage_24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster2/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_24-eps-converted-to.pdf used on 
-input line 673.
+input line 679.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62348 bytes
 (epstopdf)             Output file: <images/cluster2/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:38
+(epstopdf)                    date: 2014-12-18 15:01:25
 (epstopdf)                    size: 30279 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_36-e
 ps-converted-to.pdf images/cluster2/stage_36.eps>
-(epstopdf)             \includegraphics on input line 695.
+(epstopdf)             \includegraphics on input line 701.
 runsystem(repstopdf --outfile=images/cluster2/stage_36-eps-converted-to.pdf ima
 ges/cluster2/stage_36.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster2/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30279 bytes.
 
 <images/cluster2/stage_36-eps-converted-to.pdf, id=62, 476.78125pt x 165.61874p
@@ -1370,41 +1370,41 @@ t>
 File: images/cluster2/stage_36-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster2/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_36-eps-converted-to.pdf used on 
-input line 695.
+input line 701.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster2/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62348 bytes
 (epstopdf)             Output file: <images/cluster2/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:02
 (epstopdf)                    size: 30279 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster2/stage_36-e
 ps-converted-to.pdf images/cluster2/stage_36.eps>
-(epstopdf)             \includegraphics on input line 696.
+(epstopdf)             \includegraphics on input line 702.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster2/stage_36-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster2/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster2/stage_36-eps-converted-to.pdf used on 
-input line 696.
+input line 702.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/cluster3/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:36:39
+(epstopdf)                    date: 2014-12-18 15:01:25
 (epstopdf)                    size: 30263 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_6-ep
 s-converted-to.pdf images/cluster3/stage_6.eps>
-(epstopdf)             \includegraphics on input line 730.
+(epstopdf)             \includegraphics on input line 737.
 runsystem(repstopdf --outfile=images/cluster3/stage_6-eps-converted-to.pdf imag
 es/cluster3/stage_6.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster3/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30263 bytes.
 
 <images/cluster3/stage_6-eps-converted-to.pdf, id=65, 476.78125pt x 165.61874pt
@@ -1412,41 +1412,41 @@ df>
 File: images/cluster3/stage_6-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster3/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_6-eps-converted-to.pdf used on i
-nput line 730.
+nput line 737.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_6.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/cluster3/stage_6-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30263 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_6-ep
 s-converted-to.pdf images/cluster3/stage_6.eps>
-(epstopdf)             \includegraphics on input line 731.
+(epstopdf)             \includegraphics on input line 738.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster3/stage_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster3/stage_6-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_6-eps-converted-to.pdf used on i
-nput line 731.
+nput line 738.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/cluster3/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:39
+(epstopdf)                    date: 2014-12-18 15:01:25
 (epstopdf)                    size: 30291 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_12-e
 ps-converted-to.pdf images/cluster3/stage_12.eps>
-(epstopdf)             \includegraphics on input line 753.
+(epstopdf)             \includegraphics on input line 760.
 runsystem(repstopdf --outfile=images/cluster3/stage_12-eps-converted-to.pdf ima
 ges/cluster3/stage_12.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster3/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30291 bytes.
 
 <images/cluster3/stage_12-eps-converted-to.pdf, id=68, 476.78125pt x 165.61874p
@@ -1454,41 +1454,41 @@ t>
 File: images/cluster3/stage_12-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster3/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_12-eps-converted-to.pdf used on 
-input line 753.
+input line 760.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_12.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62387 bytes
 (epstopdf)             Output file: <images/cluster3/stage_12-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30291 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_12-e
 ps-converted-to.pdf images/cluster3/stage_12.eps>
-(epstopdf)             \includegraphics on input line 754.
+(epstopdf)             \includegraphics on input line 761.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster3/stage_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster3/stage_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_12-eps-converted-to.pdf used on 
-input line 754.
+input line 761.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62384 bytes
 (epstopdf)             Output file: <images/cluster3/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:39
+(epstopdf)                    date: 2014-12-18 15:01:25
 (epstopdf)                    size: 30312 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_18-e
 ps-converted-to.pdf images/cluster3/stage_18.eps>
-(epstopdf)             \includegraphics on input line 776.
+(epstopdf)             \includegraphics on input line 783.
 runsystem(repstopdf --outfile=images/cluster3/stage_18-eps-converted-to.pdf ima
 ges/cluster3/stage_18.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster3/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30312 bytes.
 
 <images/cluster3/stage_18-eps-converted-to.pdf, id=71, 476.78125pt x 165.61874p
@@ -1496,41 +1496,41 @@ t>
 File: images/cluster3/stage_18-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster3/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_18-eps-converted-to.pdf used on 
-input line 776.
+input line 783.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_18.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62384 bytes
 (epstopdf)             Output file: <images/cluster3/stage_18-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30312 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_18-e
 ps-converted-to.pdf images/cluster3/stage_18.eps>
-(epstopdf)             \includegraphics on input line 777.
+(epstopdf)             \includegraphics on input line 784.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster3/stage_18-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster3/stage_18-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_18-eps-converted-to.pdf used on 
-input line 777.
+input line 784.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62381 bytes
 (epstopdf)             Output file: <images/cluster3/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:39
+(epstopdf)                    date: 2014-12-18 15:01:26
 (epstopdf)                    size: 30320 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_24-e
 ps-converted-to.pdf images/cluster3/stage_24.eps>
-(epstopdf)             \includegraphics on input line 799.
+(epstopdf)             \includegraphics on input line 806.
 runsystem(repstopdf --outfile=images/cluster3/stage_24-eps-converted-to.pdf ima
 ges/cluster3/stage_24.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster3/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30320 bytes.
 
 <images/cluster3/stage_24-eps-converted-to.pdf, id=74, 476.78125pt x 165.61874p
@@ -1538,41 +1538,41 @@ t>
 File: images/cluster3/stage_24-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster3/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_24-eps-converted-to.pdf used on 
-input line 799.
+input line 806.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_24.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62381 bytes
 (epstopdf)             Output file: <images/cluster3/stage_24-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:09
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30320 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_24-e
 ps-converted-to.pdf images/cluster3/stage_24.eps>
-(epstopdf)             \includegraphics on input line 800.
+(epstopdf)             \includegraphics on input line 807.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster3/stage_24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster3/stage_24-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_24-eps-converted-to.pdf used on 
-input line 800.
+input line 807.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62361 bytes
 (epstopdf)             Output file: <images/cluster3/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:36:39
+(epstopdf)                    date: 2014-12-18 15:01:26
 (epstopdf)                    size: 30313 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_36-e
 ps-converted-to.pdf images/cluster3/stage_36.eps>
-(epstopdf)             \includegraphics on input line 822.
+(epstopdf)             \includegraphics on input line 829.
 runsystem(repstopdf --outfile=images/cluster3/stage_36-eps-converted-to.pdf ima
 ges/cluster3/stage_36.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <images/cluster3/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:10
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30313 bytes.
 
 <images/cluster3/stage_36-eps-converted-to.pdf, id=77, 476.78125pt x 165.61874p
@@ -1580,24 +1580,24 @@ t>
 File: images/cluster3/stage_36-eps-converted-to.pdf Graphic file (type pdf)
  <use images/cluster3/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_36-eps-converted-to.pdf used on 
-input line 822.
+input line 829.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
 Package epstopdf Info: Source file: <images/cluster3/stage_36.eps>
-(epstopdf)                    date: 2014-12-18 13:41:06
+(epstopdf)                    date: 2014-12-18 15:05:59
 (epstopdf)                    size: 62361 bytes
 (epstopdf)             Output file: <images/cluster3/stage_36-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-12-18 13:41:10
+(epstopdf)                    date: 2014-12-18 15:06:03
 (epstopdf)                    size: 30313 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cluster3/stage_36-e
 ps-converted-to.pdf images/cluster3/stage_36.eps>
-(epstopdf)             \includegraphics on input line 823.
+(epstopdf)             \includegraphics on input line 830.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cluster3/stage_36-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cluster3/stage_36-eps-converted-to.pdf>
 Package pdftex.def Info: images/cluster3/stage_36-eps-converted-to.pdf used on 
-input line 823.
+input line 830.
 (pdftex.def)             Requested size: 70.76474pt x 49.686pt.
  [1
 
@@ -1623,7 +1623,7 @@ to.pdf>
 (epstopdf)                    size: 51782 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/Mid-Lateral_surface
 3-eps-converted-to.pdf images/Mid-Lateral_surface3.eps>
-(epstopdf)             \includegraphics on input line 859.
+(epstopdf)             \includegraphics on input line 868.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Mid-Lateral_surface3-eps-converted-to.pdf, id=169, 501.875pt x 167.6262
@@ -1631,7 +1631,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: images/Mid-Lateral_surface3-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Mid-Lateral_surface3-eps-converted-to.pdf>
 Package pdftex.def Info: images/Mid-Lateral_surface3-eps-converted-to.pdf used 
-on input line 859.
+on input line 868.
 (pdftex.def)             Requested size: 351.31009pt x 117.33755pt.
  [2 <./images/cluster3/stage_6-eps-converted-to.pdf> <./images/cluster3/stage_1
 2-eps-converted-to.pdf> <./images/cluster3/stage_18-eps-converted-to.pdf> <./im
@@ -1641,7 +1641,7 @@ nverted-to.pdf> <./images/Mid-Lateral_surface3-eps-converted-to.pdf>] (./report
 Here is how much of TeX's memory you used:
  12674 strings out of 495028
  233645 string characters out of 6181496
- 382864 words of memory out of 5000000
+ 382860 words of memory out of 5000000
  15632 multiletter control sequences out of 15000+600000
  16678 words of font info for 20 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1649,7 +1649,7 @@ Here is how much of TeX's memory you used:
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fo
 nts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb>
-Output written on report1_gen.pdf (2 pages, 837674 bytes).
+Output written on report1_gen.pdf (2 pages, 837681 bytes).
 PDF statistics:
  219 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams
