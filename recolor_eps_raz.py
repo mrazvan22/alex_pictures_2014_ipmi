@@ -268,6 +268,9 @@ def create_latex(eventsAbnormalityAll):
 \usepackage[font=normal,labelfont=bf]{caption}
 \usepackage{subcaption}
 \usepackage{color}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{scalefnt}
 
 
 % margin size
@@ -319,15 +322,15 @@ inner sep=0]
       text +=  "images/%s/stage_%d.eps" % (CSV_MATRICES[matrixIndex].split("_")[0], STAGE_NR_LABELS[stageIndex]) + r'''}};
 
     % the 6 dots
-    \draw[fill=''' + "col%d%d0" % (matrixIndex, stageIndex) + '''] (-1.6,-3.4) ellipse (0.3cm and 0.3cm);
-    \draw[fill=''' + "col%d%d1" % (matrixIndex, stageIndex) + '''] (-0.7,-3.4) ellipse (0.3cm and 0.3cm);
-    \draw[fill=''' + "col%d%d2" % (matrixIndex, stageIndex) + '''] (0.2,-3.4) ellipse (0.3cm and 0.3cm);
-    \draw[fill=''' + "col%d%d3" % (matrixIndex, stageIndex) + '''] (-1.6,-4.1) ellipse (0.3cm and 0.3cm);
-    \draw[fill=''' + "col%d%d4" % (matrixIndex, stageIndex) + '''] (-0.7,-4.1) ellipse (0.3cm and 0.3cm);
-    \draw[fill=''' + "col%d%d5" % (matrixIndex, stageIndex) + '''] (0.2,-4.1) ellipse (0.3cm and 0.3cm);
+    \draw[fill=''' + "col%d%d0" % (matrixIndex, stageIndex) + '''] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
+    \draw[fill=''' + "col%d%d1" % (matrixIndex, stageIndex) + '''] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
+    \draw[fill=''' + "col%d%d2" % (matrixIndex, stageIndex) + '''] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
+    \draw[fill=''' + "col%d%d3" % (matrixIndex, stageIndex) + '''] (-1.6,-4.2) circle [radius=0.33cm] node {\scriptsize C1};
+    \draw[fill=''' + "col%d%d4" % (matrixIndex, stageIndex) + '''] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
+    \draw[fill=''' + "col%d%d5" % (matrixIndex, stageIndex) + '''] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
     % the big dot on the right
-    \draw[fill=''' + "col%d%d6" % (matrixIndex, stageIndex) + '''] (1.3,-3.75) ellipse (0.6cm and 0.6cm);
+    \draw[fill=''' + "col%d%d6" % (matrixIndex, stageIndex) + '''] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
   %\end{subfigure}
@@ -338,9 +341,9 @@ inner sep=0]
     text += r'''
   \hspace{1em}
   \begin{tikzpicture}[scale=1.0,auto,swap]
-    \shade[top color=yellow,bottom color=red] (0,0) rectangle (0.5,6);
-    \node[inner sep=0] (corr_text) at (0.2,6.5) {0};
-    \node[inner sep=0] (corr_text) at (0.2,-0.5) {1};
+    \shade[top color=red,bottom color=yellow] (0,0) rectangle (0.5,6);
+    \node[inner sep=0] (corr_text) at (0.2,6.5) {1};
+    \node[inner sep=0] (corr_text) at (0.2,-0.5) {0};
   \end{tikzpicture}
   \caption{''' + CSV_MATRICES[matrixIndex].split("_")[0] +'''}
 \end{figure}
@@ -348,26 +351,28 @@ inner sep=0]
 '''
   text += r'''
 
-\newcommand*{\scaleLabelImg}{1}
+\newcommand*{\scaleLabelImg}{0.7}
 \begin{figure}[H]
-
+  \centering
+  {\scalefont{\scaleLabelImg}
   \begin{tikzpicture}[scale=1.0,auto,swap]
 
   % the two brain figures on top
   \node (brain) at (0,1.5) { \includegraphics*[scale=\scaleLabelImg]{images/Mid-Lateral_surface3.eps}};
 
   % the 6 dots
-  \draw[scale=\scaleLabelImg] (-11,-6) circle [radius=2cm] node {ABETA142};
-  \draw[scale=\scaleLabelImg] (-6,-6) circle [radius=2cm] node {PTAU181P};
-  \draw[scale=\scaleLabelImg] (-1,-6) circle [radius=2cm] node {TAU};
-  \draw[scale=\scaleLabelImg] (-11,-10.5) circle [radius=2cm] node {RAVLT};
-  \draw[scale=\scaleLabelImg] (-6,-10.5) circle [radius=2cm] node {MMSE};
-  \draw[scale=\scaleLabelImg] (-1,-10.5) circle [radius=2cm] node {ADAS13};
+  \draw[scale=\scaleLabelImg] (-9,-6) circle [radius=2cm] node {ABETA142};
+  \draw[scale=\scaleLabelImg] (-4,-6) circle [radius=2cm] node {PTAU181P};
+  \draw[scale=\scaleLabelImg] (1,-6) circle [radius=2cm] node {TAU};
+  \draw[scale=\scaleLabelImg] (-9,-10.5) circle [radius=2cm] node {RAVLT};
+  \draw[scale=\scaleLabelImg] (-4,-10.5) circle [radius=2cm] node {MMSE};
+  \draw[scale=\scaleLabelImg] (1,-10.5) circle [radius=2cm] node {ADAS13};
 
   % the big dot on the right
-  \draw[scale=\scaleLabelImg] (6,-8.25) circle [radius=4cm] node {FDG-PET};
+  \draw[scale=\scaleLabelImg] (8,-8.25) circle [radius=4cm] node {FDG-PET};
 
   \end{tikzpicture}
+  }
 
   \caption{Labels of the different areas analysed}
 \end{figure}
@@ -387,5 +392,6 @@ text = create_latex(eventsAbnormalityAll)
 out = open(outFileName, 'w')
 out.write(text)
 out.close()
+os.system("cd ordering_figures_final && pdflatex report1_gen.tex")
 os.system("cd ordering_figures_final && xelatex report1_gen.tex")
 print text
