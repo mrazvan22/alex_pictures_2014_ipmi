@@ -256,7 +256,7 @@ def create_images():
 
   #sys.exit()
 
-def create_latex(eventsAbnormalityAll):
+def create_latex(eventsAbnormalityAll, out_fold_prefix = ""):
   text = r'''
 \documentclass[11pt,a4paper,oneside]{report}
 
@@ -305,7 +305,7 @@ inner sep=0]
         # abnormality=0 -> yellow (greenComponent=1); abnormality=1 -> red (greenComponent=0)
         greenVal =  1 - eventsAbnormalityAll[matrixIndex, stageIndex, BALL_ABN_IND[ballIndex]]
         text += r'''
-\definecolor{col''' + "%d%d%d" % (matrixIndex, stageIndex, ballIndex) + '''}{rgb}{1,''' + "%.3f" % greenVal + ''',0}'''
+\definecolor{col''' + "%d%d%d%s" % (matrixIndex, stageIndex, ballIndex, out_fold_prefix) + '''}{rgb}{1,''' + "%.3f" % greenVal + ''',0}'''
 
   text += '''\n\n '''
   for matrixIndex in range(NR_MATRICES):
@@ -320,20 +320,20 @@ inner sep=0]
     % the two brain figures on top
     \node (upper_brain) at (0,1.5) { \includegraphics*[scale=\scaleBrainImg,trim=0 0 240 0]{'''
 
-      text +=  "images/%s/stage_%d.eps" % (CSV_MATRICES[matrixIndex].split("_")[0], STAGE_NR_LABELS[stageIndex]) + r'''}};
+      text +=  "images/%s%s/stage_%d.eps" % (CSV_MATRICES[matrixIndex].split("_")[0], out_fold_prefix, STAGE_NR_LABELS[stageIndex]) + r'''}};
     \node (lower_brain) at (0,-1.5) { \includegraphics*[scale=\scaleBrainImg,trim=240 0 0 0]{'''
-      text +=  "images/%s/stage_%d.eps" % (CSV_MATRICES[matrixIndex].split("_")[0], STAGE_NR_LABELS[stageIndex]) + r'''}};
+      text +=  "images/%s%s/stage_%d.eps" % (CSV_MATRICES[matrixIndex].split("_")[0], out_fold_prefix, STAGE_NR_LABELS[stageIndex]) + r'''}};
 
     % the 6 circles
-    \draw[fill=''' + "col%d%d0" % (matrixIndex, stageIndex) + '''] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
-    \draw[fill=''' + "col%d%d1" % (matrixIndex, stageIndex) + '''] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
-    \draw[fill=''' + "col%d%d2" % (matrixIndex, stageIndex) + '''] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
-    \draw[fill=''' + "col%d%d3" % (matrixIndex, stageIndex) + '''] (-1.6,-4.2) circle [radius=0.33cm] node {\scriptsize C1};
-    \draw[fill=''' + "col%d%d4" % (matrixIndex, stageIndex) + '''] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
-    \draw[fill=''' + "col%d%d5" % (matrixIndex, stageIndex) + '''] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
+    \draw[fill=''' + "col%d%d0%s" % (matrixIndex, stageIndex, out_fold_prefix) + '''] (-1.6,-3.4) circle [radius=0.33cm] node {\scriptsize A};
+    \draw[fill=''' + "col%d%d1%s" % (matrixIndex, stageIndex, out_fold_prefix) + '''] (-0.7,-3.4) circle [radius=0.33cm] node {\scriptsize P};
+    \draw[fill=''' + "col%d%d2%s" % (matrixIndex, stageIndex, out_fold_prefix) + '''] (0.2,-3.4) circle [radius=0.33cm] node {\scriptsize T};
+    \draw[fill=''' + "col%d%d3%s" % (matrixIndex, stageIndex, out_fold_prefix) + '''] (-1.6,-4.2) circle [radius=0.33cm] node {\scriptsize C1};
+    \draw[fill=''' + "col%d%d4%s" % (matrixIndex, stageIndex, out_fold_prefix) + '''] (-0.7,-4.2) circle [radius=0.33cm] node {\scriptsize C2};
+    \draw[fill=''' + "col%d%d5%s" % (matrixIndex, stageIndex, out_fold_prefix) + '''] (0.2,-4.2) circle [radius=0.33cm] node {\scriptsize C3};
 
     % the big circle on the right
-    \draw[fill=''' + "col%d%d6" % (matrixIndex, stageIndex) + '''] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
+    \draw[fill=''' + "col%d%d6%s" % (matrixIndex, stageIndex, out_fold_prefix) + '''] (1.3,-3.8) circle [radius=0.6cm] node {\scriptsize FDG};
 
     \end{tikzpicture}
   %\end{subfigure}
@@ -343,7 +343,7 @@ inner sep=0]
 
     text += r'''
   \hspace{1em}
-  % the red-to-yellow gradient on the right 
+  % the red-to-yellow gradient on the right
   \begin{tikzpicture}[scale=1.0,auto,swap]
     \shade[top color=red,bottom color=yellow] (0,0) rectangle (0.5,6);
     \node[inner sep=0] (corr_text) at (0.2,6.5) {1};
@@ -389,15 +389,36 @@ inner sep=0]
   return text
 
 
-
+outFileName = "ordering_figures_final/report1_gen.tex"
 
 eventsAbnormalityAll = create_images()
-text = create_latex(eventsAbnormalityAll)
+text = create_latex(eventsAbnormalityAll, out_fold_prefix="")
 
 out = open(outFileName, 'w')
 out.write(text)
 out.close()
-os.system("cd ordering_figures_final && pdflatex report1_gen.tex")
-os.system("cd ordering_figures_final && xelatex report1_gen.tex")
+os.system("cd %s && xelatex %s" % (outFileName.split("/")[0], outFileName.split("/")[1] ))
+#os.system("cd %s && pdfatex %s" % (outFileName.split("/")[0], outFileName.split("/")[1] ))
+
+# part 2
+outFileName = "ordering_figures_final/part2_gen.tex"
+CSV_MATRICES = ['GMM_matrix2.csv', 'cluster1_matrix2.csv', 'cluster2_matrix2.csv', 'cluster3_matrix2.csv']
+OUT_FOLDERS = [ "ordering_figures_final/images/%s_2" % x.split("_")[0] for x in CSV_MATRICES]
+NR_MATRICES = len(CSV_MATRICES)
+
+eventsAbnormalityAll = create_images()
+text = create_latex(eventsAbnormalityAll, out_fold_prefix="_2")
+
+out = open(outFileName, 'w')
+out.write(text)
+out.close()
+os.system("cd %s && xelatex %s" % (outFileName.split("/")[0], outFileName.split("/")[1] ))
+#os.system("cd %s && pdfatex %s" % (outFileName.split("/")[0], outFileName.split("/")[1] ))
+
+
+
 print text
 print eventsAbnormalityAll[1, :,2]
+
+
+
