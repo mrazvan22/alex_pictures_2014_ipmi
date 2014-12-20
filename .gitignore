@@ -2,6 +2,7 @@
 *.out
 *~
 *.aux
+*.log
 ordering_figures_final/images/EBM/stage_12-eps-converted-to.pdf
 ordering_figures_final/images/EBM/stage_18-eps-converted-to.pdf
 ordering_figures_final/images/EBM/stage_24-eps-converted-to.pdf
